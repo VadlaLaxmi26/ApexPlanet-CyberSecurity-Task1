@@ -1,0 +1,183 @@
+# ApexPlanet Cyber Security Internship - Task 1
+
+# Requirements File
+
+#################################################
+
+# HOST SYSTEM REQUIREMENTS
+
+#################################################
+
+Operating System:
+Windows 10 / Windows 11
+
+Processor:
+Intel Core i5 or higher
+AMD Ryzen 5 or higher
+
+Memory:
+Minimum 8 GB RAM
+Recommended 16 GB RAM
+
+Storage:
+Minimum 40 GB Free Disk Space
+Recommended 80 GB+ Free Disk Space
+
+Internet Connection:
+Required
+
+#################################################
+
+# VIRTUALIZATION SOFTWARE
+
+#################################################
+
+Oracle VirtualBox 7.x
+
+#################################################
+
+# VIRTUAL MACHINES
+
+#################################################
+
+Kali Linux 2026.x
+
+Metasploitable2
+
+#################################################
+
+# KALI LINUX CONFIGURATION
+
+#################################################
+
+RAM: 4096 MB
+
+CPU Cores: 2
+
+Network Adapter 1:
+NAT
+
+Network Adapter 2:
+Host-Only Adapter
+
+#################################################
+
+# METASPLOITABLE2 CONFIGURATION
+
+#################################################
+
+RAM: 1024 MB
+
+CPU Cores: 1
+
+Network Adapter 1:
+NAT
+
+Network Adapter 2:
+Host-Only Adapter
+
+#################################################
+
+# NETWORK CONFIGURATION
+
+#################################################
+
+Host-Only Network:
+192.168.56.0/24
+
+Kali Linux IP:
+192.168.56.102
+
+Metasploitable2 IP:
+192.168.56.101
+
+#################################################
+
+# CYBER SECURITY TOOLS USED
+
+#################################################
+
+Nmap
+
+Wireshark
+
+Burp Suite Community Edition
+
+Netcat
+
+OpenSSL
+
+Metasploit Framework
+
+#################################################
+
+# LINUX COMMANDS PRACTICED
+
+#################################################
+
+pwd
+
+ls
+
+whoami
+
+uname -a
+
+mkdir
+
+cd
+
+touch
+
+chmod
+
+ip addr
+
+ping
+
+apt
+
+dpkg
+
+#################################################
+
+# NETWORKING COMMANDS USED
+
+#################################################
+
+ip addr
+
+ip route
+
+arp -a
+
+ping
+
+#################################################
+
+# NMAP COMMANDS USED
+
+#################################################
+
+nmap -sn 192.168.56.0/24
+
+nmap 192.168.56.101
+
+nmap -sV 192.168.56.101
+
+nmap -A 192.168.56.101
+
+#################################################
+
+# CRYPTOGRAPHY TOOLS USED
+
+#################################################
+
+OpenSSL
+
+SHA256
+
+
+
+
+09_BurpSuite.png
